@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reservations - The Three Broomsticks</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="hpimages/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo">the three broomsticks</a>
+      <!-- burger for mobile -->
+      <div class="burger" id="burger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+    <nav class="nav" id="nav">
+      <a href="index.html">home</a>
+      <a href="menu.html">menu</a>
+      <a href="about.html">about</a>
+      <a href="contact.html">contact</a>
+      <a href="reservations.html">reservations</a>
+    </nav>
+  </header>
+
+
+  <div class="form-container">
+    <h2>Make a Reservation</h2>
+    <form id="reservation-form">
+      <input type="text" id="guestName" placeholder="Your Name" required />
+      <input type="date" id="date" required />
+      <input type="number" id="guests" placeholder="Number of Guests" required />
+      <button type="submit">Reserve</button>
+    </form>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 The Three Broomsticks</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
