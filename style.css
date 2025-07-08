@@ -104,7 +104,7 @@ body {
 }
 
 
-/* fading text on the main page */
+/* chrdiliani teqsti rom chndeba */
 .shadowy-text span {
   opacity: 0;
   display: inline-block;
@@ -116,7 +116,7 @@ body {
   animation-fill-mode: forwards;
 }
 
-/* Delays for each word */
+/* delays for each word */
 .shadowy-text h1 span:nth-child(1) { animation-delay: 0.3s; }
 .shadowy-text h1 span:nth-child(2) { animation-delay: 0.7s; }
 .shadowy-text h1 span:nth-child(3) { animation-delay: 1.1s; }
@@ -161,10 +161,8 @@ body {
   border: 2px solid #5e4633;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.15), inset 0 0 5px rgba(0,0,0,0.05);
-
   font-size: 1.1rem;
 }
-
 
 
 .form-container {
@@ -175,6 +173,7 @@ body {
   border-radius: 16px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
+
 
 .form-container h2 {
   text-align: center;
@@ -192,8 +191,6 @@ body {
   border: 1px solid #ccc;
   border-radius: 12px;
   font-family: inherit;
-
-
 }
 
   /* davamate eseni aq */
@@ -232,21 +229,20 @@ body {
 }
 
 
-
 /* hpimage1 */
 .hpimage1 {
   width: 100%;
   border-radius: 20px;
   object-fit: cover;
 
-  /* ✨ Option 2: Warm magical color vibe */
+  /* tbili feris damateba*/
   filter: brightness(1.05) saturate(1.2);
 
-  /* 🌫️ Option 3: Smooth fade-in on load */
+  /* fade in*/
   opacity: 0;
   animation: fadeIn 1s ease forwards;
 
-  /* 🔮 Bonus polish */
+  /* damatebit dizaini */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
 }
@@ -258,7 +254,7 @@ body {
 
 }
 
-/* 👻 Fade-in animation keyframes */
+/* fade-in animation keyframes */
 @keyframes fadeIn {
   to {
     opacity: 1;
@@ -267,11 +263,7 @@ body {
 
 
 
-
-
-
-/* learnmore about us here */
-
+/* learnmore about us */
 .learnmorebox {
   display: flex;
   justify-content: center;
@@ -303,7 +295,7 @@ body {
   transform: scale(1.05);
 }
 
-/* ✨ Optional sparkle sweep */
+/* sparkle  */
 .learnmore::before {
   content: '';
   position: absolute;
@@ -327,18 +319,7 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* kursoris manatobeli efeqti */
 .wand-trail {
   position: fixed;
   pointer-events: none;
@@ -367,8 +348,6 @@ body {
 
 
 /* main page menu */
-
-/* 1. Main menu container (parchment background + padding + round corners) */
 .main_menu {
   display: grid;
   margin-bottom: 3rem;    /* rom shuashi yutebs shoris dashoreba iyos torem dzalian ertmanetzea mitkupebuli*/
@@ -379,38 +358,32 @@ body {
   background: linear-gradient(135deg, #f3e8d0, #e8dcc2);
   border-radius: 16px;
   box-shadow: inset 0 0 10px rgba(0,0,0,0.1),
-              0 6px 12px rgba(0,0,0,0.15);
-              
-              
+              0 6px 12px rgba(0,0,0,0.15);     
 }
 
-/* 2. Make the heading text bigger & more magical */
 .main_menu_text {
-  font-size: 2rem;                  /* larger text */
+  font-size: 2rem;  
   line-height: 1.3;
   color: #3b2f2f;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
   font-family: 'Cinzel Decorative', cursive;
   text-align: center;
   text-decoration: none;
-
-
 }
 
-/* 3. Image styling — copy your .hpimage1 here */
 .main_menu_pic img {
   width: 100%;
   border-radius: 20px;
   object-fit: cover;
 
-  /* ✨ Warm magical color vibe */
+  /* warm magical color vibe */
   filter: brightness(1.05) saturate(1.2);
 
-  /* 🌫️ Fade-in on load */
+  /* Fade-in on load */
   opacity: 0;
   animation: fadeIn 1s ease forwards;
 
-  /* 🔮 Bonus polish */
+  /* bonus polish */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
 }
@@ -420,7 +393,7 @@ body {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
 }
 
-/* 4. Fade-in animation keyframes (reuse) */
+/* 4. fadein animation */
 @keyframes fadeIn {
   to {
     opacity: 1;
@@ -429,13 +402,7 @@ body {
 
 
 
-
-
-
-
-
-
-
+/* menu */
 .menu-list {
   display: flex;
   flex-direction: column;
@@ -501,13 +468,13 @@ body {
   line-height: 1.6;
 }
 
-/* Glowing magical hover effect for titles */
+/* glowing hover effect for titles */
 .menu-info h3:hover {
   color: gold;
   text-shadow: 0 0 8px rgba(255, 215, 0, 0.8);
 }
 
-/* Responsive */
+/* responsive */
 @media (max-width: 768px) {
   .menu-row {
     flex-direction: column;
@@ -519,8 +486,6 @@ body {
     height: auto;
   }
 }
-
-
 
 
 /* socialmedia icons */
@@ -541,7 +506,6 @@ body {
   color: gold;
   transform: scale(1.2);
 }
-
 
 
 
